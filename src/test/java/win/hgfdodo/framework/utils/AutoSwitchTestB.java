@@ -1,3 +1,5 @@
+package win.hgfdodo.framework.utils;
+
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
@@ -7,7 +9,7 @@ import win.hgfdodo.framework.utils.AutoSwitch;
 /**
  * Created by guangfuhe on 2017/8/27.
  */
-public class SimpleTestB {
+public class AutoSwitchTestB {
     public static void main(String[] args) throws InterruptedException {
         String root = "/win/hgfdodo";
         CuratorFramework client = CuratorFrameworkFactory.builder()
